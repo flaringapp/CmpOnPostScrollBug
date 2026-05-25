@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# Android
+local.properties
+captures/
+*.apk
+*.ap_
+*.aab
+*.aar
+*.hprof
+
+# Compose Desktop packaged output
+**/compose/binaries/
+**/distributions/
+**/nativeDistributions/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.fleet/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
